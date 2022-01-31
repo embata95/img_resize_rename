@@ -24,7 +24,6 @@ def is_format_valid(ext):
 
 
 def get_format(file_name):
-    print(desired_format)
     if desired_format == '':
         curr_format = f".{file_name.split('.')[-1]}"
     else:
@@ -80,7 +79,7 @@ for curr_file in os.listdir():
         image.save(new_file_path)
         file_command = None
         if print_name:
-            print(final_name)
+            print(final_name, 'saved')
 
 if new_file_path:
     print(f"Your images can be found in {new_folder_name}")
