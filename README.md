@@ -5,7 +5,7 @@ This tool is used to limit a set of images to max width or height, change their 
 
 This script works through the console and you will be prompted to enter:
 <ul>
-<li>Path to the original iamges</li>
+<li>Path to the original images</li>
 <li>Path to the folder to save the updated images</li>
 <li>Desired extension for the images</li>
 <li>Max width and height for the images</li>
