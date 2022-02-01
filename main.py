@@ -6,7 +6,7 @@ import re
 
 
 def replace_non_alpha(bad_name):
-    new_name = re.sub(r"\W", "_", bad_name)
+    new_name = re.sub(r"[^a-zA-Z0-9]", "_", bad_name)
     return new_name
 
 
@@ -79,7 +79,7 @@ for curr_file in os.listdir():
         image.save(new_file_path)
         file_command = None
         if print_name:
-            print(final_name, 'saved')
+            print(final_name)
 
 if new_file_path:
     print(f"Your images can be found in {new_folder_name}")
