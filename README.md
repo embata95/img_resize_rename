@@ -11,3 +11,6 @@ This script works through the console and you will be prompted to enter:
 <li>Max width and height for the images</li>
 <li>Print the names of the updated images (Optional)</li>
 </ul>
+
+Version 3.6+ of Python is required.<br/>
+Use this command to install the requirements: pip install -r requirements.txt
